@@ -20,10 +20,13 @@
 
   <section class="header" id="header">
     
-    <video autoplay muted loop playsinline preload="auto" controls>
+    <!-- Debug: Check if video file exists -->
+    <p style="color: white; z-index: 999; position: relative;">Testing video file: <a href="vedio.mp4" target="_blank" style="color: yellow;">Click to test direct access to vedio.mp4</a></p>
+    
+    <video autoplay muted loop playsinline preload="auto" controls style="position: relative; z-index: 1;">
       <source src="./vedio.mp4" type="video/mp4">
       <source src="vedio.mp4" type="video/mp4">
-      Your browser does not support the video tag. Please check if vedio.mp4 exists.
+      <p style="color: red; background: white; padding: 10px;">Your browser does not support the video tag. Please check if vedio.mp4 exists.</p>
     </video>
 
     
