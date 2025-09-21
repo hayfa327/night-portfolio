@@ -67,6 +67,7 @@
  <!------------------------------------------start About section----------------------------------------------->
 
  <section class="gallery" id="about">
+  <div class="section-overlay"></div>
     <div class="gallery-container"> 
     <div class="slideshow"> 
        <img src="./1.jpg" alt="">
@@ -83,7 +84,6 @@
       <h1>About Me</h1>
       <p>Hayfa Safa is a Lebanese theater artist and human rights activist who uses art as a tool for expression and social change.
          Her work explores themes of memory, migration, and transformation, creating safe spaces for dialogue and marginalized voices.</p>
-         <div class="overlay"></div>
      </div>
 
    
@@ -116,69 +116,57 @@
 <!------------------------------------------end About section----------------------------------------------->
 <!-----------------------start of project section ------------------------->
  <section class="project-section" id="projects">
+  <div class="section-overlay"></div>
 <div class="challenges">
-      <h1>projects<span class="line-small">Across different countries, exploring memory.</span></h1></div>
-   <div class="slides-container"> 
-<div class="project-card">
-  <!-- Radio Buttons -->
-  <input type="radio" name="project1" id="p1-1" checked>
-  <input type="radio" name="project1" id="p1-2">
-  <input type="radio" name="project1" id="p1-3">
-
-  <!-- Slides -->
-  <div class="slides">
-  <div class="slide" id="slide">
-         <h3>Exploring Movement and Migration</h3>
-        <h1>When the Birds map the sky</h1>
-        <p>project collaboration between art at risk and Swan artist network</p>
-        <p>funding by the Creative Europe programme of the European Union</p>
-      <img src="./sky.jpeg" alt="Slide">
-      <p>“When the Birds Map the Sky” is a poetic video art project that explores the themes of movement, 
-        migration, and survival through the metaphor of birds in flight. The work blends personal narrative 
-        with scientific references to gravity, physics, and sound, while also drawing on Sufi philosophy and poetic text. 
-        Through layered visuals, zoomed perspectives, and voice, the project reflects on the human desire for freedom,
-         the challenges of migration, and the metaphysical meaning of flight.</p>
-      <a href="project1.html" class="btn">Learn More</a>
-    </div>
-  <div class="slide" id="slide2">
-        <h3>Exploring Cinema Lebanese</h3>
+  <h1>Projects <span class="line-small">Across different countries, exploring memory.</span></h1>
+</div>
+<div class="slides-container">
+  <div class="project-card">
+    <!-- Radio Buttons -->
+    <input type="radio" name="project1" id="p1-1" checked>
+    <input type="radio" name="project1" id="p1-2">
+    <input type="radio" name="project1" id="p1-3">
+    <!-- Slides -->
+    <div class="slides">
+      <div class="slide" id="slide">
+        <h3>Exploring Movement and Migration</h3>
+        <h1>When Birds Map the Sky</h1>
+        <p>Collaboration: Art at Risk & Swan Artist Network</p>
+        <p>Funding: Creative Europe Programme (EU)</p>
+        <img src="./sky.jpeg" alt="When the Birds Map the Sky">
+        <p>This poetic video art project explores movement, migration, and survival through birds in flight.</p>
+        <a href="project1.html" class="btn">Learn More</a>
+      </div>
+      <div class="slide" id="slide2">
+        <h3>Exploring actors in Cinema</h3>
         <h1>I Hate Cinema</h1>
-        <p>project collaboration between theater national in Tunis and nadilekonas</p>
-        <p>funding by the theater national in Tunis and Lebanese office in tunis</p>
-      <img src="./Core Beliefs.JPG" alt="Slide">
-      <p>“I Hate Cinema” is a performative and artistic experiment that challenges the traditional relationship 
-        between audiences and cinema. Through live performance, fragmented texts, and moving images, the project 
-        opens a space to question how the screen can act both as a tool of domination and as a place of escape and 
-        imagination. exposing the tension between reality and representation, 
-        and between the desire to reject cinema and the need to re-examine personal and collective memory through it.</p>
-      <a href="#" class="btn">Learn More</a>
-    </div>
-  <div class="slide" id="slide3">
-         <h3>Exploring Women body histories</h3>
-        <h1>Anana Women body story</h1>
-        <p>project collaboration between vanesborg konsthal and gothenburg university</p>
-        <p>funding by the Creative Europe programme and artists for justice</p>
-      <img src="walking.JPG" alt="Slide">
-      <p>“Anana” is a performance and visual art project that investigates the body as a site of transformation, 
-        memory, and resistance. The work combines fragmented storytelling, symbolic objects, 
-        and abstract movement to create an atmosphere where personal experiences intersect with collective histories.
-         Through its intimate and experimental form, Anana opens space for audiences to reflect on themes of identity, 
-         belonging, and the shifting relationship between self and society.</p>
-      <a href="#" class="btn">Learn More</a>
+        <p>Collaboration: Theater National in Tunis</p>
+        <p>Funding: Theater National in Tunis</p>
+        <img src="./Core Beliefs.JPG" alt="I Hate Cinema">
+        <p>This performative experiment challenges the relationship between audiences and cinema.</p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+      <div class="slide" id="slide3">
+        <h3>Exploring Women Body Histories</h3>
+        <h1>Anana Women Body Story</h1>
+        <p>Collaboration: Vanesborg Konsthal & Gothenburg University</p>
+        <p>Funding: Creative Europe Programme & Artists for Justice</p>
+        <img src="walking.JPG" alt="Anana Women Body Story">
+        <p>A performance and visual art project investigating the body as a site of transformation, memory, and resistance.</p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
     </div>
     </div>
-<div class="navigation">
-    <label for="p1-1"></label>
-    <label for="p1-2"></label>
-    <label for="p1-3"></label>
-  </div>
-   </div> 
- 
-  </section>
+    <div class="navigation">
+      <label for="p1-1"></label>
+      <label for="p1-2"></label>
+      <label for="p1-3"></label>
+    </div>
+</section>
 
 <!-----------------------end of project section ------------------------->
 <!---------------------------- animated blobs section ----------------------------->
-
+<section class="section-logo" id="logo">
 <div class="challenges" id="logo">
       <h1>Logo<span class="line-small">Across different colors, exploring memory.</span></h1></div>
 
@@ -231,12 +219,12 @@
     <label for="bg5" class="circle circle5"></label>
     <p>Select Background</p>
   </div>
-</section>
-
+ </section>
 <!-- Mobile alternative -->
 <div class="mobile-images">
   <img src="Screenshot.png" alt="Logo version 1">
 </div>
+ 
 
 <!-- About Section -->
 <section class="content-container">
