@@ -54,8 +54,7 @@ body, html {
   width: 100%;
   font-family: 'Poppins', sans-serif;
   min-height: 100vh;
-color: #0a0a0a;
-
+  color: #0a0a0a;
 }
 
 .header {
@@ -80,11 +79,13 @@ color: #0a0a0a;
 }
  .overlay {
   position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-   background: rgba(212, 183, 230, 0.55);
-   pointer-events: none;
-   height: 100vh;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100vh;
+  background: rgba(218,180,241,0.55);
+  pointer-events: none;
+  z-index: 2;
 }
 
 
@@ -306,7 +307,7 @@ color: #0a0a0a;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-  background: rgba(170, 81, 226, 0.15);
+  background: rgba(218,180,241,0.55);
 }
 
  
@@ -632,13 +633,36 @@ html, body {
   
  
 
-
  
  
 /* ------------------- ANIMATION BLOBS ------------------- */
 
 
 h1, h2, h3 { margin: 0.5em 0; }
+
+/* Global H1 styling - consistent across all sections */
+h1 {
+  font-size: 2.2rem;
+  color: rgba(135, 48, 189, 0.75);
+  border-bottom: 2px solid rgba(218,180,241,0.55);
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+/* Global P styling - gray color for all paragraphs */
+p {
+  color: gray;
+}
+
+/* Global H2 styling - gray color for all h2 elements */
+h2 {
+  color: gray;
+}
+
+/* Global H3 styling - white color for all h3 elements */
+h3 {
+  color: white;
+}
 
 /* ---------- Animation (desktop only) ---------- */
 .animation-blobs {
@@ -854,8 +878,7 @@ animation: gradientBG 15s ease infinite; }
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-   background: #ffffff;  
+  align-items: center; 
   color: #222;
 }
 
@@ -864,12 +887,12 @@ animation: gradientBG 15s ease infinite; }
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
-  background: #fff;
-  border-radius: 12px;
+  background: rgba(155, 56, 216, 0.1);  
   box-shadow: 0 2px 8px rgba(170,81,226,0.10);
   padding: 32px 24px;
   overflow: hidden;  
   word-wrap: break-word;
+  z-index: 10;
   
 }
 
@@ -894,10 +917,8 @@ animation: gradientBG 15s ease infinite; }
   flex: 1 1 300px;   
   min-width: 280px;
   max-width: 100%;
-  background: rgba(218, 180, 241, 0.15);
+  background: rgba(218,180,241,0.55);
   border-radius: 12px;
-  border: 2px solid #4b2c7b;
-  box-shadow: 0 4px 24px rgba(26,10,59,0.18);
   padding: 16px;
   display: flex;
   flex-direction: column;
@@ -988,7 +1009,7 @@ animation: gradientBG 15s ease infinite; }
 /* ----------------------------------------------- start contact section ------------------------------------------------------- */
  
 .contact-section {
-  background: rgba(170, 81, 226, 0.15);
+  background: rgba(218,180,241,0.55);
   padding: 60px 20px;
   text-align: center;
   
@@ -1012,6 +1033,8 @@ animation: gradientBG 15s ease infinite; }
   display: flex;
   flex-direction: column;
   gap: 32px;
+  padding: 40px;
+  border-radius: 15px;
 }
 
 .contact-form input,
