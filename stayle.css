@@ -54,8 +54,8 @@ body, html {
   width: 100%;
   font-family: 'Poppins', sans-serif;
   min-height: 100vh;
-  background: linear-gradient(180deg, #1a0a3b, #4b2c7b);
-  color: #f5f5f5;
+color: #0a0a0a;
+
 }
 
 .header {
@@ -78,17 +78,15 @@ body, html {
   filter: blur(4px);
   pointer-events: none;
 }
-
-.overlay {
+ .overlay {
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: rgba(26, 10, 59, 0.7); /* deep purple veil */
-  backdrop-filter: blur(6px);
-  opacity: 0.85;
-  pointer-events: none;
-  height: 100vh;
+   background: rgba(212, 183, 230, 0.55);
+   pointer-events: none;
+   height: 100vh;
 }
+
 
 /* TEXT BLOCK */
 .text-block {
@@ -149,7 +147,7 @@ body, html {
   z-index: 10;
   display: flex;
   gap: 32px;
-  background: linear-gradient(180deg, #1a0a3b, #4b2c7b);
+  background: rgba(170, 81, 226, 0.15);
   border-radius: 16px;
   box-shadow: 0 2px 12px rgba(26,10,59,0.15);
   padding: 8px 0;
@@ -210,7 +208,7 @@ body, html {
 /* Tablets */
 @media (max-width: 1900px) {
   .menu {
-    left: 70%;  /* closer to center */
+    left: 70%;   
     gap: 10px;
   }
   .text-block {
@@ -308,6 +306,7 @@ body, html {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+  background: rgba(170, 81, 226, 0.15);
 }
 
  
@@ -654,8 +653,6 @@ h1, h2, h3 { margin: 0.5em 0; }
 }
 
 .section-logo {
-  background: linear-gradient(180deg, #1a0a3b, #4b2c7b);
-  color: #f5f5f5;
   padding: 40px 20px;
   font-family: 'Poppins', sans-serif;
   top: 30px;
@@ -843,28 +840,26 @@ animation: gradientBG 15s ease infinite; }
   padding: 0;
 }
 
-html, body {
-  width: 100%;
-  overflow-x: hidden;   /* prevent horizontal scroll */
-  font-family: 'Poppins', sans-serif;
- 
+      
+ html, body {
+  height: 100%; 
+  margin: 0; 
 }
 
-/* ===== PROJECT SECTION ===== */
- .project-section {
+.project-section {
+  min-height: 60vh;   
+  width: 100%;
+  margin: 40px auto;   
+  padding: 40px 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  margin: 60px auto;
-  padding: 40px 10px;
-  background: #fafafa url('noise.png');
-  background-blend-mode: overlay;
+   background: #ffffff;  
   color: #222;
 }
 
-/* ===== PROJECT CARD ===== */
+
 .project-card {
   width: 100%;
   max-width: 900px;
@@ -873,15 +868,16 @@ html, body {
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(170,81,226,0.10);
   padding: 32px 24px;
-  overflow: hidden; /* prevent overflow */
+  overflow: hidden;  
   word-wrap: break-word;
+  
 }
 
 /* ===== SLIDES ===== */
 .slides-container {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;    /* allow wrapping on small screens */
+  flex-wrap: wrap;     
   justify-content: center;
   gap: 20px;
 }
@@ -895,7 +891,7 @@ html, body {
 }
 
 .slide {
-  flex: 1 1 300px;   /* responsive width */
+  flex: 1 1 300px;   
   min-width: 280px;
   max-width: 100%;
   background: rgba(218, 180, 241, 0.15);
@@ -909,7 +905,7 @@ html, body {
   justify-content: flex-start;
   text-align: center;
   color: #444;
-  overflow: hidden;       /* prevent overflow */
+  overflow: hidden;        
   word-wrap: break-word;
 }
 
@@ -920,8 +916,7 @@ html, body {
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(218, 180, 241, 0.55);
 }
-
-/* ===== TEXT ELEMENTS ===== */
+ 
 .slide h1 {
   font-size: clamp(18px, 2vw, 30px);
   color: rgba(170, 81, 226, 0.55);
@@ -941,7 +936,7 @@ html, body {
   word-break: break-word;
 }
 
-/* ===== BUTTONS ===== */
+ 
 .btn {
   text-decoration: none;
   background: rgba(170, 81, 226, 0.55);
@@ -958,7 +953,7 @@ html, body {
   box-shadow: 5px 5px 5px rgba(170, 81, 226, 0.55);
 }
 
-/* ===== MEDIA QUERIES ===== */
+/* ---------- Responsive ---------- */
 @media (max-width: 1024px) {
   .project-section {
     padding: 24px 10px;
@@ -993,7 +988,7 @@ html, body {
 /* ----------------------------------------------- start contact section ------------------------------------------------------- */
  
 .contact-section {
-  background: linear-gradient(120deg, #ffdde1 0%, #bfe9ff 50%, #a1c4fd 100%);
+  background: rgba(170, 81, 226, 0.15);
   padding: 60px 20px;
   text-align: center;
   
@@ -1034,7 +1029,6 @@ html, body {
   min-height: 120px;
 }
 
-/* ===== Footer ===== */
 .footer {
   background: rgba(170, 81, 226, 0.15);
   padding: 30px 20px;
