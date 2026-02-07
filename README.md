@@ -1,5 +1,10 @@
 # HTML-CSS-responsive-portfolio
 
+# HTML CSS Responsive Portfolio
+
+##  Live Demo
+ [View Live Demo](https://hayfa327.github.io/HTML-CSS-responsive-portfolio/)
+
 
 **HTML-CSS-responsive-portfolio** is my **first frontend project**, created to build a strong foundation in **HTML, CSS, and responsive web design**.  
 The project focuses on structure, layout, styling, and making a website work smoothly across different screen sizes.
@@ -20,28 +25,27 @@ This portfolio represents my starting point in web development and my commitment
 
 ##  Technologies Used
 
-- **HTML5** — page structure and semantics  
-- **CSS3** — styling, layout, and responsiveness  
+- **HTML5**  page structure and semantics  
+- **CSS3** styling, layout, and responsiveness  
 - **Responsive Web Design**  
   - Media queries  
   - Flexible layouts  
   - Relative units (%, rem, vh, vw)
-
-* No frameworks  
-* No libraries  
-* Pure HTML & CSS
+  - No frameworks  
+  - No libraries  
+  - Pure HTML & CSS
 
 ---
 
 ##  Responsive Design
 
-The website is designed to be responsive and optimized for:
+####  The website is designed to be responsive and optimized for:
 
 - Desktop
 - Tablet
 - Mobile
 
-Responsive techniques used:
+#### Responsive techniques used:
 - Media queries for different breakpoints  
 - Flexible layouts  
 - Scalable typography and spacing  
