@@ -1,64 +1,86 @@
-<<<<<<< HEAD
-# night-portfolio
-=======
-# Hayfa Safa - Portfolio Website
+# HTML-CSS-responsive-portfolio
 
-A personal portfolio website showcasing the work of Hayfa Safa, a Lebanese theater artist and human rights activist.
 
-##  Live Demo
-Visit the live website: [https://hayfa327.github.io/night-portfolio/](https://hayfa327.github.io/night-portfolio/)
+**HTML-CSS-responsive-portfolio** is my **first frontend project**, created to build a strong foundation in **HTML, CSS, and responsive web design**.  
+The project focuses on structure, layout, styling, and making a website work smoothly across different screen sizes.
 
-##  About
-This portfolio website explores themes of memory, migration, and transformation through art. It features:
+This portfolio represents my starting point in web development and my commitment to learning the core fundamentals before moving on to frameworks.
 
-- **Interactive video background** with artistic overlay effects
-- **Responsive design** that works on all devices
-- **Project showcase** highlighting theater and art projects across 21 countries
-- **Animated logo section** with interactive color themes
-- **Contact form** for collaboration inquiries
+---
 
-##  Features
-- **Header Section**: Video background with overlay and navigation menu
-- **About Section**: Slideshow gallery and personal information
-- **Projects Section**: Interactive slides showcasing artistic work
-- **Logo Section**: Animated blob effects with customizable backgrounds
-- **Contact Section**: Professional contact form
-- **Responsive Design**: Mobile-friendly layout
+##  Project Goals
+
+- Learn and apply semantic **HTML5**
+- Practice **CSS styling and layout**
+- Build a fully **responsive website**
+- Understand how design adapts to different devices
+- Create a clean and visually consistent portfolio layout
+
+---
 
 ##  Technologies Used
-- **HTML5**: Semantic structure and video elements
-- **CSS3**: Advanced styling, animations, and responsive design
-- **JavaScript**: Interactive elements (radio buttons, animations)
-- **Font Awesome**: Social media icons
-- **Google Fonts**: Poppins typography
 
-## Projects Featured
-1. **When Birds Map the Sky** - Collaboration with Art at Risk & Swan Artist Network
-2. **I Hate Cinema** - Theater National in Tunis
-3. **Anana Women Body Story** - Vanesborg Konsthal & Gothenburg University
+- **HTML5** — page structure and semantics  
+- **CSS3** — styling, layout, and responsiveness  
+- **Responsive Web Design**  
+  - Media queries  
+  - Flexible layouts  
+  - Relative units (%, rem, vh, vw)
 
-##  Design Elements
-- **Color Scheme**: Purple and lavender tones (`rgba(218,180,241,0.55)`)
-- **Typography**: Hierarchical system with Poppins font
-- **Animations**: Floating blob effects and smooth transitions
-- **Video Integration**: Background video with artistic blur effects
+* No frameworks  
+* No libraries  
+* Pure HTML & CSS
 
-## 📱Responsive Breakpoints
-- **Desktop**: Full experience with animations
-- **Tablet**: Optimized layout (768px and below)
-- **Mobile**: Compact design (600px and below)
+---
 
-## Deployment
-This website is deployed using GitHub Pages and automatically updates when changes are pushed to the master branch.
+##  Responsive Design
 
-##  Contact
-- **Website**: [hayfa327.github.io/night-portfolio](https://hayfa327.github.io/night-portfolio/)
-- **LinkedIn**: [Haifa Safa](https://www.linkedin.com/in/haifa-safa-665810176/)
-- **Instagram**: [@haifa.safa](https://www.instagram.com/haifa.safa/)
-- **Facebook**: [Haifa Safa](https://www.facebook.com/haifa.safa.9/)
+The website is designed to be responsive and optimized for:
 
-##  License
-© 2025 Hayfa Safa. All Rights Reserved.
+- Desktop
+- Tablet
+- Mobile
 
+Responsive techniques used:
+- Media queries for different breakpoints  
+- Flexible layouts  
+- Scalable typography and spacing  
+
+---
+
+##  Project Structure
+
+### HTML-CSS-responsive-portfolio
  
->>>>>>> master
+* index.html # Main HTML file
+* style.css # Main CSS file
+* assets/ # Images and media (if used)
+* README.md
+
+## Author
+
+Created by Hayfa Safa
+First frontend project - HTML, CSS & Responsive Design
+
+## 🚀 How to View the Project
+
+1. Clone the repository:
+
+```bash
+git clone  https://github.com/hayfa327/HTML-CSS-responsive-portfolio.git
+
+Open the project in your browser:
+cd HTML-CSS-responsive-portfolio
+open index.html
+
+### What I Learned
+
+* How to structure a webpage using semantic HTML
+
+* How to control layout and design with CSS
+
+* How to make a website responsive across devices
+
+* How to organize a small frontend project properly
+
+This project laid the foundation for more advanced frontend development.
