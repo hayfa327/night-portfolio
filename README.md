@@ -1,7 +1,5 @@
 # HTML-CSS-responsive-portfolio
 
-# HTML CSS Responsive Portfolio
-
 ##  Live Demo
  [View Live Demo](https://hayfa327.github.io/HTML-CSS-responsive-portfolio/)
 
