@@ -62,7 +62,7 @@ Responsive techniques used:
 Created by Hayfa Safa
 First frontend project - HTML, CSS & Responsive Design
 
-## 🚀 How to View the Project
+## How to View the Project
 
 1. Clone the repository:
 
